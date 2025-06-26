@@ -80,7 +80,7 @@ project-root/
 
 
 ### 🏠 Home Page(after uploading the image)
-![Home Page](screenshots/home2.png)
+![Home Page](screenshots/home_page2.png)
 
 
 ### 🪑 Recommendations Page
