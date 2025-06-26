@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - Interior Design AI</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <div class="container header-container">
+            <div class="logo">
+                <img src="../images/bg_images/Logo.png" alt="Company Logo">
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="services.html">Services</a></li>
+                </ul>
+            </nav>
+            <a href="#contact" class="btn contact-btn">Contact Us</a>
+        </div>
+    </header>
+
+    <!-- Gallery Section -->
+    <section class="gallery section-padding">
+        <h1 class="section-title">Our Design Gallery</h1>
+        <p class="gallery-description">Explore various AI-generated design inspirations for your home, office, and more.</p>
+
+        <div class="gallery-grid">
+            <!-- Image 1 -->
+            <div class="gallery-item">
+                <img src="../images/bg_images/gallery1.jpg" alt="Living Room Design" class="gallery-image" data-full="gallery1.jpg">
+                <div class="gallery-item-info">
+                    <h3>Living Room Inspiration</h3>
+                </div>
+            </div>
+            <!-- Image 2 -->
+            <div class="gallery-item">
+                <img src="../images/bg_images/bedroom.jpg" alt="Bedroom Design" class="gallery-image" data-full="gallery2.jpg">
+                <div class="gallery-item-info">
+                    <h3>Bedroom Inspiration</h3>
+                </div>
+            </div>
+            <!-- Image 3 -->
+            <div class="gallery-item">
+                <img src="../images/bg_images/office1.jpg" alt="Office Design" class="gallery-image" data-full="gallery3.jpg">
+                <div class="gallery-item-info">
+                    <h3>Office Space Inspiration</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lightbox Container -->
+      <div id="lightbox" class="lightbox">
+        <span class="close">&times;</span>
+        <img class="lightbox-image" id="lightbox-image" src="" alt="">
+        <div class="caption"></div>
+    </div>
+
+
+
+    <!-- Script -->
+    <script src="../scripts/script.js"></script>
+</body>
+</html>
