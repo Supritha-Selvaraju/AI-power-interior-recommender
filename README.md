@@ -9,7 +9,6 @@ This project is an AI-based web application that suggests interior decor items b
 - Upload a room image (bedroom, living room, etc.)
 - AI predicts the interior style
 - View decor recommendations from the style-specific database
-- Preview selected items on your uploaded image
 - Fully responsive frontend with a modern UI
 
 ---
@@ -36,7 +35,7 @@ The trained model (`ai_model.keras`) is **too large for GitHub**.
 1. User uploads a room photo
 2. FastAPI analyzes the image and predicts the interior style
 3. Node.js fetches decor items from the corresponding table in MySQL
-4. Selected decor items are displayed on the uploaded image
+4. Selected decor items are displayed with the uploaded image
 
 ---
 
